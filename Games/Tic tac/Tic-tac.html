@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic tac Game</title>
+    <link rel="stylesheet" href="Tic-tac.css">
+</head>
+<body>
+    
+ 
+        <!--Modal-->
+        <div class="modal-container" id="alert">
+            <div class="material card modal">
+                <div class="header" id="modal-title">
+                    Alert!
+                </div>
+                <div class="body" id="modal-msg">
+                    Are you sure you want to clear the game
+                </div>
+                <div class="footer">
+                    <button type="button" id="modal-no">No</button>
+                    <button type="button" id="modal-yes">Yes</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="container">
+            <div class="material card">
+                <div class="header"><span id="ai"></span> Tic-Tac Game</div>
+                <div class="rich-media"><canvas id="ticktac"></canvas></div>
+                <div class="title" id="result"></div>
+                <button type="button" class="danger" onclick="game.reset()">Reset</button>
+                <button type="button" class="default" onclick="game.clear()">Clear</button>
+                <div class="player-score">
+                    <div id="player1Score"></div>
+                    <div id="player2Score"></div>
+                </div>
+            </div>
+        </div>
+
+  <script src="Tic-tac.js"></script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===First container-fluid=== */
+.container-fluid-1{
+    background-image:url(images/background/a-gamer-room-modern-architecture-neon-lights-a-gamer-chair-a-desk-a-computer-cinematic-4k-ep-188265642.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+.container-1{
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.container-1 ul {
+    display: flex;
+    padding:0px 50px;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.container-1 ul li {
+    padding: 25px;
+    transition: transform 0.3s ease 0s;
+}
+.name{
+    font-size: 45px;
+    /* color: white; */
+    background-image: url(images/background/Download\ premium\ vector\ of\ Optical\ lens\ technology\ background\ vector\ in\ purple\ and\ blue\ gradient\ by\ Busbus\ about\ optical\,\ advanced\ technology\,\ authentication\,\ background\,\ and\ background\ design\ 3307351.jpeg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container-1 ul li a {
+    text-decoration: none;
+    /* text-transform:uppercase; */
+    font-size: 25px;
+    transition: all 0.3s linear;
+    color: white;
+    transition: transform 0.3s ease 0s;
+}
+.container-1 ul li:hover {
+    color: red;
+    transform: translateY(-5px);
+}
+
+.container-1 ul li a:hover{
+    color: red;
+}
+
+/* ===login and signup=== */
+.Login{
+    padding: 10px;
+    text-transform: uppercase;
+    border: none !important;
+    background-color: black;
+    color: white;
+    /* border-radius: 10px; */
+    padding: 15px 30px;
+}
+.Login:hover{
+    background-color: white;
+    color: black;
+    border: none !important;
+    cursor: pointer;
+}
+.Signup{
+    text-transform: uppercase;
+    color: white;
+    border: none !important;
+    background-color: red;
+    padding: 15px 30px;
+}
+.Signup:hover{
+    background-color: chartreuse;
+    color: white;
+    cursor: pointer;
+}
+
+/* ===Main text-1===   */
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px;
+}
+.header-center{
+    text-align: center;
+
+}
+.header-title{
+    color: white;
+    font-size: 70px;
+    /* margin-bottom: 100px; */
+    padding: 100px 0px 20px 0px;
+}
+.header-center p {
+    font-size: 30px;
+    color: white;
+}
+
+.btn-z{
+    margin-top: 20px;
+    font-size: 20px;
+
+    
+}
+.main-btn-1{
+    background-color: transparent;
+    /* border: 3px solid red; */
+    color: white;
+    padding: 25px 10px;
+    border: 2px solid red;
+}
+.main-btn-1:hover{
+    background-color: chartreuse;
+    border: none;
+    cursor: pointer;
+}
+.main-btn-2{
+    background-color: red;
+    color: white;
+    padding: 25px 10px;
+    border: none;
+}
+.main-btn-2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+/* ===Main text-1===   */
+.container-fluid-2{
+    background-image: url(images/background/omen-16-gaming-laptop-modern-background-by-jacob-lawrence-and-francis-picabia-perfect-composition-227421597.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+.container-2{
+    padding: 0px 30px;
+}
+.text-container-2{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-container-2 img{
+    padding-top:10px;
+}
+.container-card{
+    backdrop-filter: blur(5px);
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    text-align: center;
+    padding:90px 90px;
+    justify-content: space-between;
+    
+}
+.container-card .card-1 img{
+
+    height: 300px ;
+    width: 300px ;
+}
+.container-card .card-1 img,h1{
+    cursor: pointer;
+}
+.container-card .card-2 img{
+    height: 300px ;
+    width: 300px ;
+}
+.container-card .card-2 img,h1{
+    cursor: pointer;
+}
+.container-card .card-3 img{
+    height: 300px ;
+    width: 300px ;
+}
+.container-card .card-3 img,h1{
+    cursor: pointer;
+}
+.container-fluid-3{
+    background-image: url(images/background/view-illuminated-neon-gaming-keyboard-setup-controller.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+}
+.container-3{
+    padding: 0 40px;
+    align-items: center;
+}
+.container-3-text{
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 50px;
+}
+.container-3-text img{
+    padding-top: 10px;
+}
+.container-card-2{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: 1px solid red;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+.container-card-2 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+.container-card-2 img:hover{
+    cursor: pointer;
+}
+.container-card-3{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 100px;
+    border-radius: 10px;
+    border: 1px solid red;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+.container-card-3 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+.container-card-3 img:hover{
+    cursor: pointer;
+}
+.container-fluid-4{
+    /* background-image: url(images/background/an-image-inspired-by-dantes-inferno-where-dante-strolls-through-the-mystical-landscapes-of-the-und-716000264.png); */
+    background-repeat: no-repeat;
+    background-color:#17171b ;
+    background-size: cover;
+    /* height: 100vh; */
+    color: white;  
+    align-items: center;
+}
+.container-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-4 .Eamil{
+    display: inline;
+}
+.Eamil h1{
+    font-size: 50px !important;
+}
+.inp input{
+    width: 80%;
+    padding: 13px;
+    background-color: transparent;
+    color: white;
+    border:1px solid red;
+}
+.inp button{
+    width: 19%;
+    padding: 13px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+
+/* ===login and signup=== */

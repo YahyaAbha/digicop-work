@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===First container-fluid=== */
+.container-fluid-1{
+    background-image:url(images/background/home-page-banner-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+.container-1 ul {
+    display: flex;
+    padding:0px 50px;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.container-1 ul li {
+    padding: 25px;
+    transition: transform 0.3s ease 0s;
+}
+.name{
+    font-size: 45px;
+    /* color: white; */
+    background-image: url(images/background/Download\ premium\ vector\ of\ Optical\ lens\ technology\ background\ vector\ in\ purple\ and\ blue\ gradient\ by\ Busbus\ about\ optical\,\ advanced\ technology\,\ authentication\,\ background\,\ and\ background\ design\ 3307351.jpeg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container-1 ul li a {
+    text-decoration: none;
+    /* text-transform:uppercase; */
+    font-size: 25px;
+    transition: all 0.3s linear;
+    color: white;
+    transition: transform 0.3s ease 0s;
+}
+.container-1 ul li:hover {
+    color: red;
+    transform: translateY(-5px);
+}
+
+.container-1 ul li a:hover{
+    color: red;
+}
+
+/* ===login and signup=== */
+.Login{
+    padding: 10px;
+    text-transform: uppercase;
+    border: none !important;
+    background-color: black;
+    color: white;
+    /* border-radius: 10px; */
+    padding: 15px 30px;
+}
+.Signup{
+    text-transform: uppercase;
+    color: white;
+    border: none !important;
+    background-color: red;
+    padding: 15px 30px;
+}
+.Login:hover{
+    background-color: white;
+    color: black;
+    border: none !important;
+    cursor: pointer;
+}
+.Signup:hover{
+    background-color: chartreuse;
+    color: white;
+    cursor: pointer;
+}
+
+/* ===login and signup=== */
+
+/* ===Icons and Text=== */
+
+.center{
+    display: flex;
+}
+.header-center{
+    text-align: center;
+
+}
+.header-title{
+    color: white;
+    font-size: 70px;
+    /* margin-bottom: 100px; */
+    padding: 100px 0px 20px 0px;
+    /* animation-name: heading;
+    animation-duration: 1s; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    /* animation-timing-function: ;
+    animation-delay: ;
+    animation-iteration-count: ;
+    animation-direction: ;
+    -o-animation-fill-mode: ; */
+}
+/* @keyframes heading{
+    from {
+        transform: translateX(300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+} */
+.header-center p {
+    font-size: 30px;
+    color: white;
+    /* animation-name: para; */
+    /* animation-duration: 1s;  */
+}
+/* @keyframes para{
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+} */
+
+.btn-z{
+    margin-top: 20px;
+    font-size: 20px;
+
+    
+}
+.main-btn-1{
+    background-color: transparent;
+    /* border: 3px solid red; */
+    color: white;
+    padding: 25px 10px;
+    border: 2px solid red;
+    animation-name: btn-1;
+    animation-duration: 1s;
+}
+@keyframes btn-1{
+    from {
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.main-btn-1:hover{
+    background-color: chartreuse;
+    border: none;
+    cursor: pointer;
+}
+.main-btn-2{
+    background-color: red;
+    color: white;
+    padding: 25px 10px;
+    border: none;
+    animation-name: btn-2;
+    animation-duration: 1s;
+}
+@keyframes btn-2{
+    from {
+        transform: translateX(200px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+.main-btn-2:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 350px;
+    animation-name: icons;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+@keyframes icons {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+
+.icon-4{
+    animation-name: icon-4;
+    animation-duration: 0.5s;
+    /* animation-timing-function: ease-in; */
+}
+@keyframes icon-4 {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.icon-3{
+    animation-name: icon-3;
+    animation-duration: 1.2s;
+    /* animation-timing-function: ease-in; */
+}
+@keyframes icon-3 {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.icon-2{
+    animation-name: icon-2;
+    animation-duration: 1.5s;
+    /* animation-timing-function: ease-in; */
+}
+@keyframes icon-2 {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.icon-1{
+    animation-name: icon-1;
+    animation-duration: 1.7s;
+    /* animation-timing-function: ease-in; */
+}
+@keyframes icon-1 {
+    from{
+        transform: translateY(-300px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.icons ul li img{
+    width: 45px;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 5px;
+    transition: transform 0.3s ease 0s;
+}
+.icons ul li img:hover{
+    transform: translateY(-7px);
+    background-color: red; 
+}
+
+/* ===Icons and Text=== */
+
+/* ===First container-fluid=== */
+
+/* ===second container-fluid=== */
+.container-fluid-2{
+    background-image: url(images/background/crox-home-4th-sec-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* ===Heading=== */
+.text-1{
+    align-items: center;
+    text-align: center;
+}
+.text-1 h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 10px;
+}
+/* ===Heading=== */
+/* ===logo=== */
+.logo-2{
+    text-align: center;
+    margin-top: 20px;
+}
+/* ===logo=== */
+
+/* ===Links=== */
+.container-2 ul {
+    display: flex;
+    padding:0px 50px;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: center;
+}
+.container-2 ul li {
+    padding: 25px;
+    transition: transform 0.3s ease 0s;
+}
+.container-2 ul li a {
+    text-decoration: none;
+    /* text-transform:uppercase; */
+    font-size: 25px;
+    transition: all 0.3s linear;
+    color: white;
+    transition: transform 0.3s ease 0s;
+}
+.container-2 ul li:hover {
+    color: red;
+    transform: translateY(-5px);
+}
+
+.container-2 ul li a:hover{
+    color: red;
+}
+
+/* ===Links=== */
+
+.card-container-1{
+    display: flex;
+    background-size: initial;
+    text-align: center;
+    padding: 0px 50px;
+    justify-content: space-between;
+    color: white;
+
+}
+
+
+.card-container-1 .card-1 img{
+    width: 200px;
+    transition: transform 0.3s ease 0s;
+}
+
+.card-container-1 .card-1 img:hover{
+    transform: translateY(-10px);
+}
+
+.card-container-1 .card-2 img{
+    width: 200px;
+    transition: transform 0.3s ease 0s;
+}
+.card-container-1 .card-2 img:hover{
+    transform: translateY(-10px);
+}
+
+.card-container-1 .card-3 img{
+    width: 200px;
+    transition: transform 0.3s ease 0s;
+}
+.card-container-1 .card-3 img:hover{
+    transform: translateY(-10px);
+}
+
+.card-container-1 .card-4 img{
+    width: 200px;
+    transition: transform 0.3s ease 0s;
+}
+.card-container-1 .card-4 img:hover{
+    transform: translateY(-10px);
+}
+
+
+/* ===second container-fluid=== */
+
+
+
+/* ===Third container-fluid=== */
+
+.container-fluid-3{
+    background-image: url(images/background/3rd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container-3{
+    display: flex;
+    color: white;
+    padding: 60px 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.container-3 .horizontal-card img{
+    width: 410px;
+}
+
+.container-3 .horizontal-card-text{
+    padding-left: 20px
+}
+
+.container-3 .horizontal-card-text h1{
+    font-size: 40px;
+}
+.container-3 .horizontal-card-text p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.container-3 .horizontal-card-text button{
+    margin-top: 10px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+    transition: transform 0.3s ease 0s;
+}
+.container-3 .horizontal-card-text button:hover{
+    background-color: white;
+    color: red;
+    transform: translateZ(-10px);
+}
+
+/* ===Third container-fluid=== */
+
+
+/* ===Forth container-fluid=== */
+
+.container-fluid-4{
+    background-image: url(images/background/4th.png);
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:900px;
+    /* background-color: black; */
+
+}
+.text-4{
+    align-items: center;
+    text-align: center;
+    padding-top: 90px;
+}
+.text-4 img{
+    margin: 10px;
+}
+
+.abc-1{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 130px;
+    margin: 40px 50px;
+    
+}
+.abc-1 ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px 90px;
+    align-items: center;
+}
+.abc-1 ul li{
+    padding: 0px 20px;
+    align-items: center;
+}
+.abc-1 ul li img{
+    transition: transform 0.3s ease 0s;
+}
+.abc-1 ul li img:hover{
+    transform: translateY(-10px);
+}
+.abc-1 ul .vs{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 30px;
+    font-size: 10px;
+
+}
+.list-text-4{
+    display: inline;
+}
+.list-text-p{
+    display: flex;
+    justify-content: space-between;
+}
+.padd{
+    display: flex;
+    text-align: center;
+}
+.box-1{
+    font-size: 15px;
+    background-color: red;
+    padding: 10px;
+}
+.box-2{
+    font-size: 15px;
+    background-color: red;
+    padding: 10px;
+}
+
+/* ===Forth container-fluid=== */
+
+
+/* ===Fifth container-fluid=== */
+
+.container-fluid-5{
+    background-image: url(images/background/3rd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.container-5 .abc-2{
+    text-align: center;
+    /* padding-top: 10px; */
+}
+.container-5 .main-card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 40px;
+}
+.container-5 .card{
+    padding: 0px 20px;
+}
+.container-5 .card img{
+
+    height: 350px;
+    width: 350px;
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(23, 20, 20);
+    border-radius: 10px;
+    position: static;
+    transition: transform 0.3s ease 0s;
+}
+.container-5 .card img:hover{
+    transform: translateY(-5px);
+    border: 1px solid red;
+}
+.container-5 .card h1 {
+    font-size: 40px;
+}
+.container-5 .card p {
+    font-size: 20px;
+}
+
+
+/* ===Fifth container-fluid=== */
+
+
+/* ===Sixth container-fluid=== */
+
+.container-fluid-6{
+    background-image: url(images/background/crox-home-8th-sec-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+.container-6{
+    text-align: center;
+    padding:50px 0px 0px;
+}
+.Input{
+    padding: 30px;
+    display: inline;
+}
+.Input .input-1{
+    padding: 0px 20px;
+}
+.Input .input-1 input{
+    color: white;
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    padding: 0px 20px;
+    border: 1px solid grey;
+}
+.Input .input-2 textarea {
+    padding: 20px;
+    margin: 20px;
+    width: 910px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+}
+.Input .input-3 input{
+    width: 910px;
+    height: 45px;
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
+}
+.Input .input-3 input:hover{
+    background-color: #39b54a;
+}
+
+/* ===Sixth container-fluid=== */
+
+
